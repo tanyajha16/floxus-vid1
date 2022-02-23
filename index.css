@@ -4,7 +4,7 @@
     display:flex;
     flex-direction: row;
     width:100%;
-    height:12vh;
+    height:auto;
     justify-content:center;
     box-shadow: 0px 2px 2px 0px #cecece;
     position: sticky;
@@ -56,7 +56,9 @@
     color: black;
   }
 @media (max-width:496px) {
-    
+    /* .logo img{
+        width:15%;
+    }; */
     .nav-items ul {
     display: flex;
     flex-direction: column;
@@ -65,13 +67,12 @@
     }
     .navbar
     {
+        align-items: center;
         flex-direction: column;
-       
         width: 100%;
 		margin: 0 auto;
         height:auto;
-    }
-    
+    } 
 }
 /* hero section */
 .hero-wrapper
@@ -180,6 +181,7 @@
     .hero-wrapper{
         height: auto;
         flex-direction: column;
+        /* height:130vh; */
         }
     .hero-container
     {
