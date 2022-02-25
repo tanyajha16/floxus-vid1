@@ -98,8 +98,8 @@
         left: 0 !important;
     }
     .menu__btn {
-        position: fixed;
-        top: 6%;
+        position: absolute;
+        bottom: 25%;
         left: 80%;
         width: 20px;
         height: 20px;
